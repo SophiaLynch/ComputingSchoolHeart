@@ -1,0 +1,29 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/options.rpy", line 151, in script
+    define config.mac_icon = "gui/menuicon.png"
+  File "renpy/common/000namespaces.rpy", line 9, in set
+    setattr(self.nso, name, value)
+Exception: config.mac_icon is not a known configuration variable.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "D:\C\Users\Sophia\Documents\renpy-6.99.12.3-sdk\renpy\bootstrap.py", line 295, in bootstrap
+    renpy.main.main()
+  File "D:\C\Users\Sophia\Documents\renpy-6.99.12.3-sdk\renpy\main.py", line 419, in main
+    game.context().run(node)
+  File "game/options.rpy", line 151, in script
+    define config.mac_icon = "gui/menuicon.png"
+  File "D:\C\Users\Sophia\Documents\renpy-6.99.12.3-sdk\renpy\ast.py", line 1825, in execute
+    ns.set(self.varname, value)
+  File "renpy/common/000namespaces.rpy", line 9, in set
+    setattr(self.nso, name, value)
+  File "D:\C\Users\Sophia\Documents\renpy-6.99.12.3-sdk\renpy\defaultstore.py", line 89, in __setattr__
+    raise Exception('config.%s is not a known configuration variable.' % (name))
+Exception: config.mac_icon is not a known configuration variable.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.3.2123
+ComputingSchoolHeart 1.0
