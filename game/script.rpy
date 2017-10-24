@@ -5,13 +5,13 @@
 define j = Character("Jimmy")
 define m = Character("Maddie")
 define so = Character("Sophia")
-define s = Character("Sam")
+ define s = Character("Sam")
 define n = Character("Nick")
 define jp = Character("Jacob")
 define r = Character("Ram")
 define st1 = Character("Student 1")
 define st2 = Character("Student 2")
-define r2 = Character("Dark Haired Boy")
+# define r2 = Character("Dark Haired Boy")
 define n1 = Character("Fierce Eyebrowed Boy")
 define m1 = Character("Red Haired Girl")
 define so1 = Character("Apostrophe Girl")
@@ -134,9 +134,9 @@ label start:
             show ram frown
             "His dark hair waves slightly in the wind, and I can’t help but marvel at how glamorous he looks."
             
-            r2 "Why are you staring at me?"
+            "Dark Haired Boy" "Why are you staring at me?"
             
-            r2 "Nevermind, it doesn't matter. Just get out of my way."
+            "Dark Haired Boy" "Nevermind, it doesn't matter. Just get out of my way."
             
             hide ram frown
             
@@ -366,15 +366,15 @@ label start:
             
             "Oh God, no way. It can't be."
             
-            r2 "Wow, look who it is. The kid who ran into me."
+            "Dark Haired Boy" "Wow, look who it is. The kid who ran into me."
             
-            r2 "Nick, did you have to bring him along? He's not some lost little puppy."
+            "Dark Haired Boy" "Nick, did you have to bring him along? He's not some lost little puppy."
             
             j "I'm so sorry about earlier!!"
             
             j "Could you at least tell me your name, though? I want to apologize properly."
             
-            r2 "Ugh, fine."
+            "Dark Haired Boy" "Ugh, fine."
             
             r "It's Ram."
             
@@ -1008,7 +1008,7 @@ label start:
             
             show ram frown
             
-            r2 "Wow, great. Another GDD."
+            "Dark Haired Boy" "Wow, great. Another GDD."
             
             "I can't tell if he's being sarcastic or not..."
             
